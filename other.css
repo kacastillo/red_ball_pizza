@@ -1,0 +1,109 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: Kelley Castillo
+    Date: 08/11/2024
+    File: other.css
+ */
+header{
+    /* background-image: url("redball.png"); */
+    margin:10px;
+    padding-top:20px;
+    background-position:center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+body{
+    background-image: url("parlor.jpg");
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+nav ul li{
+    background:linear-gradient(to right, #b41c34, transparent);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom:30px;
+}
+    nav ul a{
+        color:white;
+        text-decoration:none;
+    }
+aside ul li {
+    background: linear-gradient(to left, #d2737a, lightgrey);
+    border:2px solid #9a1417;
+    border-left:2px dashed #9a1417;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:20px;
+    margin-left:20px;
+    }
+section {
+    border: 2px dashed black;
+    padding:20px;
+  }
+section ul li:first-child(even){
+    background-color:#9a1417;
+    margin-bottom:0;
+}
+section ul li:last-child(odd){
+    background-color:grey;
+    margin-bottom:0;
+}
+
+   /* section.deals {
+        display:flex;
+        flex-wrap:wrap;
+        border: 2px dashed #9a1417;
+        gap: 20px;
+        padding: 20px;
+        margin:20px;
+        }
+*/
+section.deals .deal{
+    flex: 1 1 30%;
+    background:#fff;
+    border:2px solid #781b1b;
+    border-radius: 8px;
+    padding:20px;
+    font-size:16px;
+    text-align:center;
+}
+section.deals .deal .title{
+    font-weight:bold;
+}
+section.deals .deal-text {
+    font-weight: bold;
+}
+
+section.deals .small-text {
+    font-size: 0.8em;
+    text-align: right;
+}
+
+main{
+    border-left:3px solid #781b1b;
+    border-right: 3px solid #781b1b;
+    padding:20px;
+    margin: 0 auto;
+    background-color:white;
+}
+/*
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 10px;
+}
+main {
+   border-left:3px solid #781b1b;
+    border-right:3px solid #781b1b;
+    padding: 20px;
+    margin: 0 auto;
+}
+*/
